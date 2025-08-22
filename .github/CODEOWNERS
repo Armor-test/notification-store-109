@@ -1,0 +1,43 @@
+# CODEOWNERS file for notification-store-109
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-ui @Armor-test/squad-ml @Armor-test/dept-test
+
+# Directory ownership
+/common/ @Armor-test/unit-governance @Armor-test/squad-frontend @Armor-test/unit-design
+/vendor/ @Armor-test/squad-qa @Armor-test/grp-api @Armor-test/squad-reporting
+/security/ @Armor-test/dept-reporting @Armor-test/squad-frontend @Armor-test/dept-test
+/config/ @Armor-test/grp-api @Armor-test/dept-reliability @Armor-test/squad-mobile
+/pkg/ @Armor-test/dept-logging @Armor-test/squad-reporting
+/helpers/ @Armor-test/squad-ml @Armor-test/dept-automation @Armor-test/team-core
+/docs/ @Armor-test/grp-payments @Armor-test/unit-cloud @Armor-test/team-notifications
+/components/ @Armor-test/team-notifications @Armor-test/squad-frontend
+/extensions/ @Armor-test/dept-reporting @Armor-test/squad-performance @Armor-test/squad-apps
+/lib/ @Armor-test/team-logging @Armor-test/team-frontend @Armor-test/unit-test
+/public/ @Armor-test/grp-storage @Armor-test/team-logging @Armor-test/unit-design
+/third_party/ @Armor-test/squad-database @Armor-test/dept-reporting
+/middleware/ @Armor-test/team-notifications @Armor-test/team-reporting @Armor-test/squad-ux
+/plugins/ @Armor-test/unit-governance @Armor-test/squad-search @Armor-test/squad-database
+
+# File type ownership
+*.json @Armor-test/dept-identity @Armor-test/dept-security
+*.py @Armor-test/unit-governance @Armor-test/squad-product @Armor-test/grp-integration
+*.sql @Armor-test/squad-cache @Armor-test/squad-reporting @Armor-test/grp-storage
+*.java @Armor-test/grp-payments @Armor-test/squad-search
+*.kt @Armor-test/squad-payments @Armor-test/grp-reporting
+*.c @Armor-test/dept-automation @Armor-test/team-frontend @Armor-test/squad-qa
+*.yml @Armor-test/team-frontend @Armor-test/grp-api
+*.cpp @Armor-test/squad-qa @Armor-test/squad-api
+*.properties @Armor-test/unit-cloud @Armor-test/dept-api
+*.php @Armor-test/squad-product @Armor-test/squad-qa
+*.xml @Armor-test/grp-reporting @Armor-test/squad-tooling @Armor-test/unit-design
+*.sh @Armor-test/squad-research @Armor-test/unit-test
+*.yaml @Armor-test/team-core @Armor-test/team-research @Armor-test/squad-research
+*.tf @Armor-test/team-security @Armor-test/squad-research
+*.config @Armor-test/squad-mobile @Armor-test/team-reporting @Armor-test/squad-ux
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
